@@ -1,6 +1,11 @@
 // SAMPLE
 this.manifest = {
-    "name": "My Extension",
+    "name": "fw-chrometool",
+    "description" : "Multi toolset for personal use",
+    "version" : "1.0.0",
+    "background" : {
+        "scripts" : ["hot-reload.js"]
+    },
     "icon": "icon.png",
     "settings": [
         {
